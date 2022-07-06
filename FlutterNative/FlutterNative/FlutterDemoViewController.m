@@ -6,7 +6,6 @@
 //
 
 #import "FlutterDemoViewController.h"
-#import <Flutter/Flutter.h>
 @interface FlutterDemoViewController ()
 
 @end

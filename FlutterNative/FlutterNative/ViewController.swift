@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     @objc private func pushFlutterVC(){
         let vc = FlutterViewController()
         self.present(vc, animated: true) {
-            
+
         }
     }
 }
