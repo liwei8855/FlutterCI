@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+flutter_application_path = '../flutter_module'
+load File.join(flutter_application_path,'.ios','Flutter','podhelper.rb')
+
+platform :ios, '13.0'
+
+target 'FlutterNative' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  install_all_flutter_pods(flutter_application_path)
+  use_frameworks!
+
+  # Pods for FlutterNative
+
+  target 'FlutterNativeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FlutterNativeUITests' do
+    # Pods for testing
+  end
+
+end
